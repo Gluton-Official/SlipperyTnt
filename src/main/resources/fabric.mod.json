@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "tntdr",
+  "id": "sliptnt",
   "version": "${version}",
 
-  "name": "TNT Duper Remover",
-  "description": "Removes the common TNT duper.",
+  "name": "Slippery TNT",
+  "description": "Makes TNT act like glazed terracotta, where it does not stick to slime blocks, honey blocks, or sticky pistons.",
   "authors": [
     "Gluton"
   ],
   "contact": {
     "homepage": "https://github.com/Gluton-Official",
-    "sources": "https://github.com/Gluton-Official/TNTDuperRemover"
+    "sources": "https://github.com/Gluton-Official/SlipperyTnt"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/tntdr/icon.png",
+  "icon": "assets/sliptnt/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.gluton.tntdr.TntDuperRemover"
+      "com.gluton.sliptnt"
     ]
   },
   "mixins": [
-    "tntdr.mixins.json"
   ],
 
   "depends": {
