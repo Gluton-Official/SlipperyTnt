@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gluton.tntdr.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  	"TntMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
